@@ -2,11 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Light/dark primitive tokens */
-:root {
-  --background: 255 255 255;
-  --foreground: 17 24 39;
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
 }
-/* Tailwind CSS variables */
-.bg-background { background-color: rgb(var(--background)); }
-.text-foreground { color: rgb(var(--foreground)); }
